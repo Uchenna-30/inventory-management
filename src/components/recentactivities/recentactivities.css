@@ -1,0 +1,85 @@
+.recent-activities {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-activities h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li.activity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .activity-status {
+    display: flex;
+    align-items: center;
+  }
+  
+  .status-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  /* Circle colors for different statuses */
+  .status-circle.red {
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+  
+  .status-circle.yellow {
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+  
+  .status-circle.green {
+    background-color: rgba(0, 255, 0, 0.2);
+  }
+  
+  .activity-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .status-label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Label text colors */
+  .status-label.red {
+    color: #ff0000;
+  }
+  
+  .status-label.yellow {
+    color: #ffcc00;
+  }
+  
+  .status-label.green {
+    color: #00cc00;
+  }
+  
+  .product-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .time {
+    font-size: 0.8rem;
+    color: #888;
+  }
+  

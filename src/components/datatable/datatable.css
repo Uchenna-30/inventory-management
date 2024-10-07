@@ -1,0 +1,47 @@
+.product-form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="number"]::placeholder,
+  input[type="password"]::placeholder {
+    color: #bbb;
+  }
+
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .signup-button:hover {
+    background-color: #333;
+  }

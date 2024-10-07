@@ -1,0 +1,58 @@
+.chart-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .chart-title {
+    font-size: 18px;
+    color: #374151;
+    margin-bottom: 10px;
+  }
+  
+  .recharts-tooltip-wrapper .recharts-default-tooltip {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    color: #374151;
+    padding: 5px 10px;
+  }
+  
+  .recharts-bar-rectangle {
+    border-radius: 10px;
+  }
+  
+  .recharts-text {
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    fill: #6B7280; /* Similar to the color of the text in your image */
+  }
+  
+  .recharts-cartesian-axis-tick-value {
+    font-size: 14px;
+  }
+  
+  .recharts-legend-wrapper {
+    display: none; /* Optional: if you don't want the legend */
+  }
+  
+  .recharts-cartesian-grid-horizontal line {
+    display: none; /* Remove the horizontal grid lines */
+  }
+
+  /* Remove shadow effect on bar hover */
+.bar:hover {
+    filter: none !important;  /* Removes any existing shadow */
+    transition: none !important;  /* Disable hover effects like zoom/shadow */
+  }
+  
+  /* Optional: Disable default shadow on hover (you can also disable bar scaling) */
+  .bar {
+    filter: none; /* Ensure no shadow is added */
+  }
