@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.609667c0.css",
+    "main.js": "/static/js/main.69c0c8ab.js",
+    "static/js/239.f0bab2c1.chunk.js": "/static/js/239.f0bab2c1.chunk.js",
+    "static/js/213.c1be3969.chunk.js": "/static/js/213.c1be3969.chunk.js",
+    "static/js/553.00a0f96f.chunk.js": "/static/js/553.00a0f96f.chunk.js",
+    "static/media/ogunstatelogo.jpg": "/static/media/ogunstatelogo.2d5903c4811d356c058a.jpg",
+    "index.html": "/index.html",
+    "main.609667c0.css.map": "/static/css/main.609667c0.css.map",
+    "main.69c0c8ab.js.map": "/static/js/main.69c0c8ab.js.map",
+    "239.f0bab2c1.chunk.js.map": "/static/js/239.f0bab2c1.chunk.js.map",
+    "213.c1be3969.chunk.js.map": "/static/js/213.c1be3969.chunk.js.map",
+    "553.00a0f96f.chunk.js.map": "/static/js/553.00a0f96f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.609667c0.css",
+    "static/js/main.69c0c8ab.js"
+  ]
+}
